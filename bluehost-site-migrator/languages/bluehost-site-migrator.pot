@@ -1,216 +1,138 @@
-# Copyright (C) 2023 Bluehost
-# This file is distributed under the GPL V2 or later.
+# Copyright (C) 2026 Bluehost
+# This file is distributed under the GPL v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Bluehost Site Migrator 1.0.14\n"
-"Report-Msgid-Bugs-To: "
-"https://wordpress.org/support/plugin/bluehost-site-migrator\n"
-"POT-Creation-Date: 2023-10-03 11:57:05+00:00\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2023-MO-DA HO:MI+ZONE\n"
+"Project-Id-Version: Bluehost Site Migrator 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/bluehost-site-migrator\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"X-Generator: wp-vue-i18n 1.1.4\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-12T10:12:03+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: bluehost-site-migrator\n"
 
-#. Plugin Name of the plugin/theme
+#. Plugin Name of the plugin
+#: bluehost-site-migrator.php
+#: includes/admin-page.php:39
+#: includes/admin-page.php:134
+#: includes/admin-page.php:142
 msgid "Bluehost Site Migrator"
 msgstr ""
 
-#: includes/class-admin-page.php:14
-msgid "Site Migrator"
-msgstr ""
-
-#: includes/class-rest-can-we-migrate-controller.php:73
-#: includes/class-rest-manifest-controller.php:234
-#: includes/class-rest-migration-id-controller.php:59
-#: includes/class-rest-migration-package-controller.php:265
-#: includes/class-rest-migration-regions-controller.php:65
-msgid "Sorry, you are not allowed to access this endpoint."
-msgstr ""
-
-#: includes/class-rest-manifest-controller.php:137
-#: includes/class-rest-manifest-controller.php:210
-msgid "An error occured when delivering the migration payload."
-msgstr ""
-
-#: includes/class-rest-manifest-controller.php:178
-msgid "No failed tasks found."
-msgstr ""
-
-#: source/components/PageCheckCompatibility.vue:5
-msgid "Let's get this truck rolling:"
-msgstr ""
-
-#: source/components/PageCheckCompatibility.vue:6
-msgid "A website compatibility check needs to be performed before the"
-msgstr ""
-
-#: source/components/PageCheckCompatibility.vue:7
-msgid "transfer process can begin to verify that your website can be transferred."
-msgstr ""
-
-#: source/components/PageCheckCompatibility.vue:8
-msgid "transferred."
-msgstr ""
-
-#: source/components/PageCheckCompatibility.vue:10
-msgid "Check Compatibility"
-msgstr ""
-
-#: source/components/PageCheckCompatibility.vue:84
-msgid "Checking environment..."
-msgstr ""
-
-#: source/components/PageCheckCompatibility.vue:85
-msgid "Checking plugins..."
-msgstr ""
-
-#: source/components/PageCheckCompatibility.vue:86
-msgid "Checking themes..."
-msgstr ""
-
-#: source/components/PageCheckCompatibility.vue:87
-msgid "Checking configuration..."
-msgstr ""
-
-#: source/components/PageCompatible.vue:4
-msgid "Looks like we're compatible!"
-msgstr ""
-
-#: source/components/PageCompatible.vue:5
-msgid ""
-"We need to make a clone of your WordPress website next, which we can then "
-"use to transfer to your desired account."
-msgstr ""
-
-#: source/components/PageCompatible.vue:7
-msgid ""
-"Please wait to make changes to your website until the transfer process has "
-"been completed. In addition, for now, leave your DNS and domain settings "
-"the same as well."
-msgstr ""
-
-#: source/components/PageCompatible.vue:9
-msgid ""
-"Once the cloning process is completed, you will be given a transfer key "
-"that can be copied and used to complete the WordPress website transfer "
-"process."
-msgstr ""
-
-#: source/components/PageCompatible.vue:10
-msgid "Start Transfer"
-msgstr ""
-
-#: source/components/PageComplete.vue:16
-msgid "Great news, your website has "
-msgstr ""
-
-#: source/components/PageComplete.vue:17
-msgid "been cloned successfully! "
-msgstr ""
-
-#: source/components/PageComplete.vue:21
-msgid ""
-"Your site has been cloned and is now ready for transfer. To initiate the "
-"transfer, you need to copy the transfer key and paste it into the Migration "
-"Services page."
-msgstr ""
-
-#: source/components/PageComplete.vue:34
-msgid "Copy transfer key"
-msgstr ""
-
-#: source/components/PageComplete.vue:43
-msgid "Login to Bluehost"
-msgstr ""
-
-#: source/components/PageComplete.vue:48
-msgid "Don't have an account?"
-msgstr ""
-
-#: source/components/PageComplete.vue:54
-msgid "Create account"
-msgstr ""
-
-#: source/components/PageComplete.vue:59
-msgid "Choose your country:"
-msgstr ""
-
-#: source/components/PageError.vue:5
-msgid "It looks like your site didn't transfer."
-msgstr ""
-
-#: source/components/PageError.vue:8
-msgid ""
-"We might have gotten disconnected, or there could be something else going "
-"on. Let's figure it out."
-msgstr ""
-
-#: source/components/PageError.vue:12
-msgid "Call us at 888-401-4678"
-msgstr ""
-
-#: source/components/PageError.vue:15
-msgid "Try Again"
-msgstr ""
-
-#: source/components/PageIncompatible.vue:7
-msgid "That didn't work:"
-msgstr ""
-
-#: source/components/PageIncompatible.vue:8
-msgid "Let's bring in the pros."
-msgstr ""
-
-#: source/components/PageIncompatible.vue:12
-msgid ""
-"This can happen if you have a multisite, alternate directory structures, or "
-"certain themes or plugins. The transfer might require some extra steps, or "
-"we might need to look at other options."
-msgstr ""
-
-#: source/components/PageIncompatible.vue:15
-msgid "Give us a call at 888-401-4678."
-msgstr ""
-
-#: source/components/PageTransfer.vue:4
-msgid "Cloning your website"
-msgstr ""
-
-#: source/components/PageTransfer.vue:5
-msgid "Please wait for the cloning process to complete, once completed, we "
-msgstr ""
-
-#: source/components/PageTransfer.vue:6
-msgid "will issue you your transfer key."
-msgstr ""
-
-#: source/components/PageTransfer.vue:10
-msgid "Cancel Transfer"
-msgstr ""
-
-#: source/components/PageTransfer.vue:34
-msgid "Preparing to generate package files..."
-msgstr ""
-
-#: source/components/PageTransfer.vue:76
-msgid "Packaging %s..."
-msgstr ""
-
-#. Plugin URI of the plugin/theme
+#. Plugin URI of the plugin
+#: bluehost-site-migrator.php
 msgid "https://wordpress.org/plugins/bluehost-site-migrator"
 msgstr ""
 
-#. Description of the plugin/theme
-msgid "Quickly and easily migrate your website to Bluehost."
+#. Description of the plugin
+#: bluehost-site-migrator.php
+msgid "Shows you the best way to move your WordPress site to Bluehost."
 msgstr ""
 
-#. Author of the plugin/theme
+#. Author of the plugin
+#: bluehost-site-migrator.php
 msgid "Bluehost"
 msgstr ""
 
-#. Author URI of the plugin/theme
+#. Author URI of the plugin
+#: bluehost-site-migrator.php
 msgid "https://www.bluehost.com/"
+msgstr ""
+
+#: includes/admin-page.php:40
+msgid "Site Migrator"
+msgstr ""
+
+#: includes/admin-page.php:148
+msgid "Move this site to Bluehost"
+msgstr ""
+
+#: includes/admin-page.php:149
+msgid "We will take a quick look at this site and show you the best way to move it."
+msgstr ""
+
+#: includes/admin-page.php:152
+msgid "Check my site"
+msgstr ""
+
+#: includes/admin-page.php:163
+msgid "Checking site configuration"
+msgstr ""
+
+#: includes/admin-page.php:164
+msgid "Checking the WordPress install path"
+msgstr ""
+
+#: includes/admin-page.php:165
+msgid "Inspecting SSL/TLS"
+msgstr ""
+
+#: includes/admin-page.php:166
+msgid "Checking software versions"
+msgstr ""
+
+#: includes/admin-page.php:175
+msgid "Let’s work on this one together"
+msgstr ""
+
+#: includes/admin-page.php:176
+msgid "Your site may be too complex for an automated transfer. Please fill out our support form, and our team will look into your specific case to see if we can still assist with the migration."
+msgstr ""
+
+#: includes/admin-page.php:177
+msgid "Submit help request form"
+msgstr ""
+
+#. translators: %s: a link with the text "full-service Site Migration".
+#: includes/admin-page.php:183
+#, php-format
+msgid "You can also opt for our %s, handled by our expert Migrations team for a fee."
+msgstr ""
+
+#: includes/admin-page.php:184
+msgid "full-service Site Migration"
+msgstr ""
+
+#: includes/admin-page.php:189
+msgid "You’re ready to start"
+msgstr ""
+
+#: includes/admin-page.php:190
+msgid "The transfer starts from your Bluehost account. Log in, go to Websites, click Add Website, then choose Transfer WordPress Website."
+msgstr ""
+
+#: includes/admin-page.php:191
+msgid "Show me the steps"
+msgstr ""
+
+#: includes/admin-page.php:204
+msgid "Terms of Service"
+msgstr ""
+
+#: includes/admin-page.php:206
+msgid "Privacy Notice"
+msgstr ""
+
+#: includes/admin-page.php:225
+msgid "Include technical details about this site (software versions, database size, media size)."
+msgstr ""
+
+#: includes/cleanup.php:141
+#: includes/cleanup.php:160
+msgid "Bluehost Site Migrator: action needed."
+msgstr ""
+
+#: includes/cleanup.php:142
+msgid "An earlier version of this plugin left a copy of your database in a place where anyone can download it. The plugin could not delete it because of the file permissions on your server. Delete this file now, or ask your hosting provider to delete it:"
+msgstr ""
+
+#: includes/cleanup.php:161
+msgid "An earlier version of this plugin left a folder for migration archives on your site. An archive can contain a copy of your database. The plugin could not delete the folder, most likely because of the file permissions on your server. Delete this folder now, or ask your hosting provider to delete it:"
+msgstr ""
+
+#: includes/self-deactivate.php:91
+msgid "Bluehost Site Migrator has been deactivated. The Bluehost plugin on this site already has the migration tool, under Tools → Import."
 msgstr ""
